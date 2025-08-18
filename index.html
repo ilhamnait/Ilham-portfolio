@@ -1,50 +1,170 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Ilham Nait Mbarek</title>
-    <link rel="stylesheet" href="style.css">
+  <title>Portfolio - Ilham Nait Mbarek</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Ilham Nait Mbarek</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">À propos</a></li>
-                <li><a href="#projects">Projets</a></li>
-                <li><a href="#contact">Contact</a></li>
+  <nav class="navbar navbar-expand-lg navbar-dark background-image fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Ilham Nait Mbarek</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">À propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projets</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown">
+              FR
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+              <li><a class="dropdown-item" href="#" onclick="setLanguage('fr')">Français</a></li>
+              <li><a class="dropdown-item" href="#" onclick="setLanguage('en')">English</a></li>
             </ul>
-        </nav>
-    </header>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header class="pt-5 hero text-center background-image text-white d-flex align-items-center justify-content-center">
+    <div class="pt-5 lang-fr">
+      <h1>Développeuse Web Full Stack</h1>
+    </div>
+    <div class="pt-5 lang-en" style="display:none;">
+      <h1>Full Stack Web Developer</h1>
+    </div>
+  </header>
 
-    <section id="about">
-        <h2>À propos de moi</h2>
-        <p>Développeuse web full stack passionnée par la création de projets performants et fiables.</p>
-    </section>
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="lang-fr">
+        <h2 class="mb-4">À propos de moi</h2>
+        <p>Développeuse web full stack avec plus de 5 ans d’expérience dans la conception,
+		le développement et la maintenance d’applications web performantes et évolutives, en PHP orienté objet (7+),
+		JavaScript, HTML/CSS et SQL (MySQL, MS SQL Server). Expérience complète du cycle de vie logiciel :
+		analyse technique, conception, développement, tests unitaires, déploiement et support.
+		Habituée aux environnements Agile/Scrum avec une forte capacité à résoudre les problèmes
+		et à transformer des besoins complexes en solutions fiables et maintenables.
+		Maîtrise des API REST, du design responsive et de l’optimisation des performances.</p>
+      </div>
+      <div class="lang-en" style="display:none;">
+        <h2 class="mb-4">About Me</h2>
+        <p>Full Stack Web Developer with 5+ years of experience delivering scalable,
+		high-performance web applications using Object-Oriented PHP (7+), JavaScript, HTML/CSS, and SQL (MySQL, MS SQL Server).
+		Skilled in full software development lifecycle (SDLC) from technical analysis and design to development, unit testing,
+		deployment, and maintenance.
+		Experienced in Agile/Scrum environments with strong problem-solving skills and the ability to transform complex business needs into reliable,
+		maintainable solutions. Proven track record working with REST APIs, responsive UI design, and database optimization.</p>
+      </div>
+    </div>
+  </section>
 
-    <section id="projects">
-        <h2>Projets</h2>
-        <div class="project-card">
-            <h3>Projet 1</h3>
-            <p>Description du projet 1.</p>
+  <section id="projects" class="py-5 bg-light">
+    <div class="container">
+      <div class="lang-fr">
+        <h2 class="mb-4">Mes projets</h2>
+      </div>
+      <div class="lang-en" style="display:none;">
+        <h2 class="mb-4">My Projects</h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="images/capgemini.png" class="card-img-top" alt="Projet 1">
+            <div class="card-body">
+              <div class="lang-fr">
+                <h5 class="card-title">Développeuse Full Stack – ENGIE (Capgemini)</h5>
+                <p class="card-text">Sept. 2021 – Juil. 2025</p>
+				<p>• Pilotage technique et évolution d’applications métiers complexes.</p>
+				<p>• Développement des différentes couches applicatives (présentation, logique métier, accès aux données) en PHP OO 7+, JavaScript, MySQL.</p>
+				<p>• Conception et exécution de tests unitaires avec PHPUnit, support aux tests d’acceptation.</p>
+				<p>• Intégration et documentation d’API REST et SOAP.</p>
+				<p>• Travail en équipe Agile (Scrum) : planification de sprints, revues de code, amélioration continue.</p>
+				<p>• Analyse technique et résolution de bugs critiques en production.</p>
+              </div>
+              <div class="lang-en" style="display:none;">
+                <h5 class="card-title">Full Stack Developer – ENGIE (Capgemini)</h5>
+                <p class="card-text">Sept. 2021 – Jul. 2025</p>
+				<p>• Pilotage technique et évolution d’applications métiers complexes, incluant des systèmes RH.</p>
+				<p>• Développement des différentes couches applicatives (présentation, logique métier, accès aux données) en PHP OO 7+, JavaScript, MySQL.</p>
+				<p>• Conception et exécution de tests unitaires avec PHPUnit, support aux tests d’acceptation.</p>
+				<p>• Intégration et documentation d’API REST et SOAP.</p>
+				<p>• Travail en équipe Agile (Scrum) : planification de sprints, revues de code, amélioration continue.</p>
+				<p>• Analyse technique et résolution de bugs critiques en production.</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="project-card">
-            <h3>Projet 2</h3>
-            <p>Description du projet 2.</p>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="images/capgemini.png" class="card-img-top" alt="Projet 2">
+            <div class="card-body">
+              <div class="lang-fr">
+                <h5 class="card-title">Développeuse Full Stack – PSA (Capgemini)</h5>
+                <p class="card-text">Août 2020 – Août 2021</p>
+              </div>
+              <div class="lang-en" style="display:none;">
+                <h5 class="card-title">Full Stack Developer – PSA (Capgemini)</h5>
+                <p class="card-text">Aug. 2020 – Aug. 2021</p>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="images/projet3.jpg" class="card-img-top" alt="Projet 3">
+            <div class="card-body">
+              <div class="lang-fr">
+                <h5 class="card-title">Projet 3</h5>
+                <p class="card-text">Description courte du projet 3.</p>
+              </div>
+              <div class="lang-en" style="display:none;">
+                <h5 class="card-title">Project 3</h5>
+                <p class="card-text">Short description of project 3.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
+  <section id="contact" class="py-5">
+    <div class="container">
+      <div class="lang-fr">
+        <h2 class="mb-4">Contact</h2>
         <p>Email : ilham.naitmbarek@gmail.com</p>
         <p>Téléphone : +1 (514) 659-0555</p>
-    </section>
+        <p>LinkedIn : <a href="https://www.linkedin.com/in/ilham-a-mbarek" target="_blank">linkedin.com/in/ilham-a-mbarek</a></p>
+      </div>
+      <div class="lang-en" style="display:none;">
+        <h2 class="mb-4">Contact</h2>
+        <p>Email: ilham.naitmbarek@gmail.com</p>
+        <p>Phone: +1 (514) 659-0555</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/ilham-a-mbarek" target="_blank">linkedin.com/in/ilham-a-mbarek</a></p>
+      </div>
+    </div>
+  </section>
 
-    <footer>
-        <p>&copy; 2025 Ilham Nait Mbarek</p>
-    </footer>
+  <footer class="bg-dark text-white text-center py-3">2025 Ilham Nait Mbarek</footer>
 
-    <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    function setLanguage(lang) {
+      document.querySelectorAll('.lang-fr').forEach(el => {
+        el.style.display = lang === 'fr' ? '' : 'none';
+      });
+      document.querySelectorAll('.lang-en').forEach(el => {
+        el.style.display = lang === 'en' ? '' : 'none';
+      });
+      document.getElementById('languageDropdown').textContent = lang.toUpperCase();
+    }
+  </script>
 </body>
 </html>
