@@ -40,7 +40,7 @@
   </header>
 
   <!-- ABOUT -->
-  <section id="about" class="container text-center">
+  <section id="about" class="container text-center animate-on-scroll">
     <h2 data-fr="À propos de moi" data-en="About Me">À propos de moi</h2>
     <p data-fr="Développeuse web full stack avec plus de 5 ans d’expérience dans la conception, le développement et la maintenance d’applications web performantes et évolutives,
 	en PHP orienté objet (7+), JavaScript, HTML/CSS et SQL (MySQL, MS SQL Server). Expérience complète du cycle de vie logiciel : analyse technique, conception, développement,
@@ -288,16 +288,7 @@
           © 2025 - Site créé par Ilham Nait Mbarek | Développé avec HTML, CSS & Bootstrap
     </span>
   </footer>
-
-  <script>
-    let currentLang = 'fr';
-    function switchLang() {
-      currentLang = currentLang === 'fr' ? 'en' : 'fr';
-      document.querySelectorAll('[data-fr]').forEach(el => {
-        el.textContent = el.getAttribute('data-' + currentLang);
-      });
-    }
-  </script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

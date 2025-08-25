@@ -48,6 +48,9 @@
       padding: 8px 15px;
       margin: 5px;
       font-size: 0.9rem;
+	  opacity: 0;
+	  transform: scale(0.8);
+	  transition: all 0.4s ease-out;
     }
     footer {
       background: #0f172a;
@@ -151,4 +154,31 @@
 	.card:hover {
 	  transform: translateY(-8px);
 	  box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+	}
+	/* Rotation du bouton de langue */
+	.lang-btn.rotate {
+	  transform: rotate(360deg);
+	  transition: transform 0.5s ease;
+	}
+
+	/* Apparition au scroll (fade + slide) */
+	.animate-on-scroll {
+	  opacity: 0;
+	  transform: translateY(40px);
+	  transition: all 0.8s ease-out;
+	}
+	.animate-on-scroll.visible {
+	  opacity: 1;
+	  transform: translateY(0);
+	}
+
+	/* Pop des skills */
+	.skills span {
+	  opacity: 0;             /* (garde tes autres styles existants) */
+	  transform: scale(0.8);
+	  transition: all 0.4s ease-out;
+	}
+	.skills span.visible {
+	  opacity: 1;
+	  transform: scale(1);
 	}
