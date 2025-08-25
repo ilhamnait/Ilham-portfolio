@@ -1,0 +1,115 @@
+  body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #01133B, #512573);
+      color: #f8fafc;
+      scroll-behavior: smooth;
+    }
+    header {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      color: #C58FFF;
+    }
+    section {
+      padding: 80px 15px;
+    }
+    .btn-custom {
+      background-color: #38bdf8;
+      color: #0f172a;
+      font-weight: 600;
+      padding: 10px 25px;
+      border-radius: 25px;
+      text-decoration: none;
+    }
+    .btn-custom:hover {
+      background-color: #0ea5e9;
+      color: #fff;
+    }
+    .skills span {
+      display: inline-block;
+      background: #1e293b;
+      border-radius: 20px;
+      padding: 8px 15px;
+      margin: 5px;
+      font-size: 0.9rem;
+    }
+    footer {
+      background: #0f172a;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #94a3b8;
+    }
+    .lang-btn {
+      position: fixed;
+      top: 15px;
+      right: 15px;
+      z-index: 999;
+    }
+	.expbg {
+	  background: linear-gradient(135deg, #C58FFF, #261796);
+	}
+	.animate-on-scroll.visible {
+	  opacity: 1;
+	  transform: translateY(0);
+	}
+	.b-image {
+	  background-image: url("../images/image.png");
+	  background-size: cover;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;
+	  height: 100vh;   
+	}
+	.timeline {
+	  border-left: 3px solid #8D47AD;
+	  padding-left: 20px;
+	  position: relative;
+	}
+	.timeline-item {
+	  position: relative;
+	}
+	.timeline-item::before {
+	  content: "";
+	  position: absolute;
+	  left: -11px;
+	  top: 8px;
+	  width: 15px;
+	  height: 15px;
+	  background: #8D47AD;
+	  border-radius: 50%;
+	}
+	.modal-content{
+	  background:#0f172a;
+	  color:#e2e8f0;
+	  border:1px solid rgba(56,189,248,.25);
+	}
+	.modal-header{
+	  border-bottom-color: rgba(148,163,184,.2);
+	}
+	.modal-footer{
+	  border-top-color: rgba(148,163,184,.2);
+	}
+	.btn-close{
+	  filter: invert(1);
+	}
+	.modal-backdrop.show{
+	  opacity:.6;
+	}
+	.btn-outline-detail{
+	  background:#8D47AD;
+	}
+	.card {
+	  transition: all 0.3s ease;
+	}
+	.card:hover {
+	  transform: translateY(-8px);
+	  box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+	}
