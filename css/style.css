@@ -6,6 +6,7 @@
     }
     header {
       height: 100vh;
+	  padding: 20px;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -20,6 +21,14 @@
     section {
       padding: 80px 15px;
     }
+	@media (max-width: 768px) {
+	  header h1 {
+		font-size: 2rem;
+	  }
+	  section {
+		padding: 40px 10px;
+	  }
+	}
     .btn-custom {
       background-color: #38bdf8;
       color: #0f172a;
@@ -39,6 +48,9 @@
       padding: 8px 15px;
       margin: 5px;
       font-size: 0.9rem;
+	  opacity: 0;
+	  transform: scale(0.8);
+	  transition: all 0.4s ease-out;
     }
     footer {
       background: #0f172a;
@@ -53,6 +65,31 @@
       right: 15px;
       z-index: 999;
     }
+	@media (max-width: 576px) {
+	  .btn-custom {
+		padding: 8px 15px;
+		font-size: 0.85rem;
+	  }
+	  .lang-btn {
+		top: 10px;
+		right: 10px;
+		font-size: 0.8rem;
+		padding: 5px 10px;
+	  }
+	}
+	@media (max-width: 576px) {
+	  header .d-flex {
+		flex-direction: column;   /* les boutons passent en colonne */
+		align-items: center;      /* centrage horizontal */
+		gap: 10px;                /* espace entre les boutons */
+	  }
+
+	  header .btn-custom {
+		width: 80%;               /* largeur adaptative */
+		text-align: center;       /* texte centré */
+		margin: 5px 0;            /* marge verticale */
+	  }
+	}
 	.expbg {
 	  background: linear-gradient(135deg, #C58FFF, #261796);
 	}
@@ -63,7 +100,7 @@
 	.b-image {
 	  background-image: url("../images/image.png");
 	  background-size: cover;
-	  background-position: center;
+	  background-position: top;
 	  background-repeat: no-repeat;
 	  background-attachment: fixed;
 	  height: 100vh;   
@@ -85,6 +122,11 @@
 	  height: 15px;
 	  background: #8D47AD;
 	  border-radius: 50%;
+	}
+	@media (max-width: 768px) {
+	  .card {
+		margin-bottom: 15px;
+	  }
 	}
 	.modal-content{
 	  background:#0f172a;
@@ -112,4 +154,31 @@
 	.card:hover {
 	  transform: translateY(-8px);
 	  box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+	}
+	/* Rotation du bouton de langue */
+	.lang-btn.rotate {
+	  transform: rotate(360deg);
+	  transition: transform 0.5s ease;
+	}
+
+	/* Apparition au scroll (fade + slide) */
+	.animate-on-scroll {
+	  opacity: 0;
+	  transform: translateY(40px);
+	  transition: all 0.8s ease-out;
+	}
+	.animate-on-scroll.visible {
+	  opacity: 1;
+	  transform: translateY(0);
+	}
+
+	/* Pop des skills */
+	.skills span {
+	  opacity: 0;             /* (garde tes autres styles existants) */
+	  transform: scale(0.8);
+	  transition: all 0.4s ease-out;
+	}
+	.skills span.visible {
+	  opacity: 1;
+	  transform: scale(1);
 	}
