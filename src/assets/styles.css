@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+--maxw: 1100px;
+}
+.container-max {
+max-width: var(--maxw);
+margin: 0 auto;
+padding-left: 1rem;
+padding-right: 1rem;
+}
