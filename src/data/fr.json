@@ -1,0 +1,181 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "experience": "Expériences",
+    "projects": "Projets",
+    "skills": "Compétences",
+    "education": "Formation",
+    "languages": "Langues",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Ilham Nait Mbarek",
+    "title": "Développeuse Web Full Stack | Analyste-développeuse PHP",
+    "location": "Montréal, Canada",
+    "phone": "+1 (514) 659-0555",
+    "email": "ilham.naitmbarek@gmail.com",
+    "linkedin": "linkedin.com/in/ilham-a-mbarek",
+    "ctaCvFr": "Télécharger CV (FR)",
+    "ctaCvEn": "Télécharger CV (EN)",
+    "ctaContact": "Me contacter"
+  },
+  "summary": "Développeuse web full stack avec plus de 5 ans d’expérience dans la conception, le développement et la maintenance d’applications web performantes et évolutives, en PHP orienté objet (7+), JavaScript, HTML/CSS et SQL (MySQL, MS SQL Server). Expérience complète du cycle de vie logiciel : analyse technique, conception, développement, tests unitaires, déploiement et support. Habituée aux environnements Agile/Scrum avec une forte capacité à résoudre les problèmes et à transformer des besoins complexes en solutions fiables et maintenables. Maîtrise des API REST, du design responsive et de l’optimisation des performances.",
+  "experience": [
+    {
+      "company": "ENGIE (Capgemini France & Maroc)",
+      "role": "Développeuse Full Stack",
+      "dates": "Fév. 2024 – Juil. 2025 / Sept. 2021 – Janv. 2024",
+      "points": [
+        "Pilotage technique et évolution d’applications métiers complexes.",
+        "Développement des différentes couches applicatives (présentation, logique métier, accès aux données) en PHP OO 7+, JavaScript, MySQL.",
+        "Conception et exécution de tests unitaires avec PHPUnit; support aux tests d’acceptation.",
+        "Intégration et documentation d’API REST et SOAP.",
+        "Travail en équipe Agile (Scrum): planification de sprints, revues de code, amélioration continue.",
+        "Analyse technique et résolution de bugs critiques en production."
+      ]
+    },
+    {
+      "company": "PSA (Capgemini Maroc)",
+      "role": "Développeuse Full Stack",
+      "dates": "Août 2020 – Août 2021",
+      "points": [
+        "Développement et optimisation de fonctionnalités en PHP orienté objet et SQL.",
+        "Automatisation de workflows avec Symfony.",
+        "Contribution aux cycles de livraison Agile : conception technique, développement itératif, mises en production.",
+        "Encadrement et accompagnement technique de nouveaux développeurs."
+      ]
+    },
+    {
+      "company": "D.U.C.K-ess",
+      "role": "Développeuse Web",
+      "dates": "Déc. 2019 – Mars 2020",
+      "points": [
+        "Conception et développement de sites vitrines et d’un système de gestion des membres en PHP7, JavaScript, MySQL.",
+        "Implémentation du design responsive pour compatibilité multi-navigateurs et mobiles."
+      ]
+    },
+    {
+      "company": "MIT Agency & RADEEMA",
+      "role": "Développeuse Web (Stages)",
+      "dates": "2018 – 2019",
+      "points": [
+        "Développement d’applications web et d’outils internes pour l’automatisation de processus.",
+        "Gestion de bases de données relationnelles et génération de rapports.",
+        "MIT Agency : création d’un CMS personnalisé sous WordPress, coordination avec des designers pour assurer l’homogénéité UI/UX.",
+        "RADEEMA : développement d’une application interne de gestion des dotations téléphoniques et du personnel avec Java EE, JSF, JPA, iReport Jasper, PrimeFaces, Oracle."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Intégration et documentation d’API REST/SOAP chez ENGIE",
+      "context": "Modernisation d’applications métiers et interopérabilité avec systèmes tiers.",
+      "stack": "PHP OO 7+, REST, SOAP, MySQL, PHPUnit, Scrum",
+      "results": [
+        "APIs intégrées et documentées, réduction du temps d’intégration.",
+        "Amélioration de la traçabilité et de la qualité via tests unitaires."
+      ]
+    },
+    {
+      "title": "Automatisation de workflows avec Symfony (PSA)",
+      "context": "Optimisation de processus internes pour accélérer les livraisons.",
+      "stack": "Symfony, PHP OO, SQL, GitLab CI/CD",
+      "results": [
+        "Réduction des interventions manuelles et des erreurs.",
+        "Déploiements plus fréquents et fiables."
+      ]
+    },
+    {
+      "title": "Système de gestion des membres",
+      "context": "Application web PHP7 pour gérer les adhérents et leurs statuts.",
+      "stack": "PHP7, MySQL, JavaScript, Bootstrap",
+      "results": [
+        "Gestion centralisée et export des données.",
+        "Interface responsive et simple d’utilisation."
+      ]
+    },
+    {
+      "title": "CMS WordPress personnalisé (MIT Agency)",
+      "context": "Création d’un CMS custom et intégration UI/UX.",
+      "stack": "WordPress, PHP, JavaScript",
+      "results": [
+        "Back-office simplifié pour les non-techniques.",
+        "Respect de la charte graphique et cohérence UX."
+      ]
+    },
+    {
+      "title": "Application interne RADEEMA",
+      "context": "Gestion des dotations téléphoniques et du personnel.",
+      "stack": "Java EE, JSF, JPA, PrimeFaces, Oracle, JasperReports",
+      "results": [
+        "Centralisation des données RH/téléphonie.",
+        "Rapports et suivi améliorés."
+      ]
+    }
+  ],
+  "skills": {
+    "languages": [
+      "PHP OO 7+",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "SQL (MySQL, MS SQL Server)",
+      "Java"
+    ],
+    "frameworks": [
+      "Laravel",
+      "Symfony",
+      "CakePHP",
+      "Vue.js"
+    ],
+    "cms": [
+      "WordPress"
+    ],
+    "testing": [
+      "PHPUnit",
+      "Tests unitaires",
+      "Support tests d’acceptation"
+    ],
+    "frontend": [
+      "jQuery",
+      "Bootstrap",
+      "XML",
+      "JSON",
+      "Design responsive"
+    ],
+    "systems": [
+      "Linux (commandes de base)"
+    ],
+    "tools": [
+      "Git/GitLab",
+      "Docker",
+      "Jira",
+      "UML"
+    ],
+    "methods": [
+      "Agile (Scrum)",
+      "Analyse technique et fonctionnelle"
+    ],
+    "other": [
+      "API REST",
+      "SOAP",
+      "Optimisation des performances"
+    ]
+  },
+  "education": [
+    {
+      "title": "Master Spécialisé en Ingénierie des Systèmes Informatiques – ISGA Marrakech, Maroc (2019)",
+      "note": "Évaluation WES : équivalent maîtrise canadienne"
+    },
+    {
+      "title": "Baccalauréat Scientifique – Marrakech, Maroc (2014)"
+    }
+  ],
+  "contact": {
+    "name": "Nom",
+    "email": "Email",
+    "message": "Message",
+    "consent": "J’accepte que ces informations soient utilisées pour me contacter.",
+    "submit": "Envoyer"
+  }
+}

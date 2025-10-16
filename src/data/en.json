@@ -1,0 +1,181 @@
+{
+  "nav": {
+    "home": "Home",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "education": "Education",
+    "languages": "Languages",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Ilham Nait Mbarek",
+    "title": "Full-Stack Web Developer | PHP Developer/Analyst",
+    "location": "Montreal, Canada",
+    "phone": "+1 (514) 659-0555",
+    "email": "ilham.naitmbarek@gmail.com",
+    "linkedin": "linkedin.com/in/ilham-a-mbarek",
+    "ctaCvFr": "Download CV (FR)",
+    "ctaCvEn": "Download CV (EN)",
+    "ctaContact": "Contact me"
+  },
+  "summary": "Full-stack web developer with 5+ years of experience in designing, developing, and maintaining high‑performance, scalable web applications using Object-Oriented PHP (7+), JavaScript, HTML/CSS, and SQL (MySQL, MS SQL Server). End-to-end software development lifecycle experience: technical analysis, design, development, unit testing, deployment, and support. Comfortable in Agile/Scrum environments with strong problem-solving skills and the ability to turn complex requirements into reliable, maintainable solutions. Proficient in REST APIs, responsive design, and performance optimization.",
+  "experience": [
+    {
+      "company": "ENGIE (Capgemini France & Morocco)",
+      "role": "Full-Stack Developer",
+      "dates": "Feb 2024 – Jul 2025 / Sept 2021 – Jan 2024",
+      "points": [
+        "Technical leadership and enhancement of complex business applications.",
+        "Developed application layers (presentation, business logic, data access) in OO PHP 7+, JavaScript, MySQL.",
+        "Designed and executed unit tests with PHPUnit; supported acceptance testing.",
+        "Integrated and documented REST and SOAP APIs.",
+        "Agile team collaboration (Scrum): sprint planning, code reviews, continuous improvement.",
+        "Technical analysis and resolution of critical production bugs."
+      ]
+    },
+    {
+      "company": "PSA (Capgemini Morocco)",
+      "role": "Full-Stack Developer",
+      "dates": "Aug 2020 – Aug 2021",
+      "points": [
+        "Developed and optimized features in Object-Oriented PHP and SQL.",
+        "Automated workflows with Symfony.",
+        "Contributed to Agile delivery cycles: technical design, iterative development, production releases.",
+        "Mentored and onboarded junior developers."
+      ]
+    },
+    {
+      "company": "D.U.C.K-ess",
+      "role": "Web Developer",
+      "dates": "Dec 2019 – Mar 2020",
+      "points": [
+        "Designed and developed showcase websites and a member management system using PHP 7, JavaScript, MySQL.",
+        "Implemented responsive design for cross-browser and mobile compatibility."
+      ]
+    },
+    {
+      "company": "MIT Agency & RADEEMA",
+      "role": "Web Developer (Internships)",
+      "dates": "2018 – 2019",
+      "points": [
+        "Developed web applications and internal tools for process automation.",
+        "Managed relational databases and generated reports.",
+        "MIT Agency: built a custom CMS on WordPress; coordinated with designers to ensure UI/UX consistency.",
+        "RADEEMA: developed an internal application for managing phone allowances and personnel using Java EE, JSF, JPA, iReport Jasper, PrimeFaces, Oracle."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "REST/SOAP API integration and documentation at ENGIE",
+      "context": "Modernization of business apps and interoperability with third-party systems.",
+      "stack": "OO PHP 7+, REST, SOAP, MySQL, PHPUnit, Scrum",
+      "results": [
+        "Integrated and documented APIs, reduced integration time.",
+        "Improved traceability and quality via unit tests."
+      ]
+    },
+    {
+      "title": "Workflow automation with Symfony (PSA)",
+      "context": "Optimizing internal processes to speed up deliveries.",
+      "stack": "Symfony, OO PHP, SQL, GitLab CI/CD",
+      "results": [
+        "Reduced manual interventions and errors.",
+        "More frequent and reliable deployments."
+      ]
+    },
+    {
+      "title": "Member management system",
+      "context": "PHP7 web app to manage members and statuses.",
+      "stack": "PHP7, MySQL, JavaScript, Bootstrap",
+      "results": [
+        "Centralized management and data export.",
+        "Responsive and user-friendly interface."
+      ]
+    },
+    {
+      "title": "Custom WordPress CMS (MIT Agency)",
+      "context": "Built a custom CMS and UI/UX integration.",
+      "stack": "WordPress, PHP, JavaScript",
+      "results": [
+        "Simplified back-office for non-technical users.",
+        "Brand consistency and better UX."
+      ]
+    },
+    {
+      "title": "RADEEMA internal application",
+      "context": "Managing phone allowances and personnel.",
+      "stack": "Java EE, JSF, JPA, PrimeFaces, Oracle, JasperReports",
+      "results": [
+        "Centralized HR/telephony data.",
+        "Improved reporting and tracking."
+      ]
+    }
+  ],
+  "skills": {
+    "languages": [
+      "OO PHP 7+",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "SQL (MySQL, MS SQL Server)",
+      "Java"
+    ],
+    "frameworks": [
+      "Laravel",
+      "Symfony",
+      "CakePHP",
+      "Vue.js"
+    ],
+    "cms": [
+      "WordPress"
+    ],
+    "testing": [
+      "PHPUnit",
+      "Unit Testing",
+      "Acceptance Testing Support"
+    ],
+    "frontend": [
+      "jQuery",
+      "Bootstrap",
+      "XML",
+      "JSON",
+      "Responsive Design"
+    ],
+    "systems": [
+      "Linux (basic commands)"
+    ],
+    "tools": [
+      "Git/GitLab",
+      "Docker",
+      "Jira",
+      "UML"
+    ],
+    "methods": [
+      "Agile (Scrum)",
+      "Technical and Functional Analysis"
+    ],
+    "other": [
+      "REST APIs",
+      "SOAP",
+      "Performance Optimization"
+    ]
+  },
+  "education": [
+    {
+      "title": "Master’s Degree in Computer Systems Engineering – ISGA Marrakech, Morocco (2019)",
+      "note": "WES Assessment: Canadian Master’s equivalent"
+    },
+    {
+      "title": "Scientific Baccalaureate – Marrakech, Morocco (2014)"
+    }
+  ],
+  "contact": {
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "consent": "I agree that this information will be used to contact me.",
+    "submit": "Send"
+  }
+}
