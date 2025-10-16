@@ -31,12 +31,12 @@
         </div>
         <div class="flex gap-3">
           <a
-            href="/cv/Ilham Nait Mbarek_F.pdf"
+            href="/cv/Ilham_Nait_Mbarek_F.pdf"
             class="px-4 py-2 rounded bg-primary-500 text-white hover:bg-primary-400"
             >{{ t.hero.ctaCvFr }}</a
           >
           <a
-            href="/cv/Ilham Nait Mbarek_ENG.pdf"
+            href="/cv/Ilham_Nait_Mbarek_ENG.pdf"
             class="px-4 py-2 rounded border border-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800"
             >{{ t.hero.ctaCvEn }}</a
           >
